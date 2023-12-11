@@ -1,0 +1,214 @@
+* {
+
+    font-family: Montserrat, sans-serif;   
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+
+}
+
+header {
+    
+    margin: 44px 0px 144px 76px;
+
+}
+
+.link-header{
+
+color: #989D9C;
+font-size: 24px;
+font-weight: 600;
+line-height: 29px;
+cursor: pointer;
+margin: 23px;
+
+}
+
+.button-header {
+
+width: 130px;
+height: 41px;
+border-radius: 20.5px;
+background: #665AE1;
+cursor:pointer;
+color: #ffffff;
+font-size: 24px;
+font-weight: 600;
+line-height: 29.26px;
+border: none;
+
+}
+
+button:hover {
+
+    opacity: 0.5;
+
+}
+
+button:active {
+
+    opacity: 0.10;
+
+
+}
+
+
+
+a:hover { 
+
+    opacity: 0.5;
+
+}
+
+a:active {
+
+    opacity: 0.9;
+    color: #848484;
+
+}
+
+
+
+h1 {
+
+    color: #515151;
+    font-size: 100px;
+    font-weight: 900;
+    line-height: normal;
+
+}
+
+h2{
+
+    width: 448px;
+    height: 71px;
+    color: #515151;
+    font-size: 58px;
+    font-weight: 500;
+    line-height: normal;
+
+}
+
+p {
+
+    width: 515px;
+    color:#848484;
+    font-size: 25px;
+    font-weight:400;
+    line-height: normal;
+    text-align: justify;
+    margin: 32px 0px 65px 0px;
+}
+
+.logo-image {
+
+    margin-left: 125px;
+    display: inline-block;
+
+}
+
+.box-text {
+    
+    display: inline-block;
+    margin-left: 76px;
+    
+
+
+
+}
+
+
+.button-section{
+
+    width: 239px;
+    height: 64px;
+    flex-shrink: 0;
+    border-radius: 20.5px;
+    background: #ADFF00;
+    border: none;
+    font-weight: 700;
+    line-height: 34.13px;
+    font-size: 28px;
+    color: #000000;
+    cursor: pointer;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+
+
+}
+
+
+
+@media screen and (max-width: 800px) {
+
+
+    header {
+
+        display: none;
+
+    }
+
+    p {
+
+        display: none;
+
+    }
+
+
+    .logo-image {
+
+        width: 354px;
+        height: 317px;
+        display: block;
+        margin-top: 125px;
+        margin-left: 14px;
+        margin-right: 22px;
+        margin-bottom: 24px;
+
+    }
+    
+    h1{
+
+    width: 263px;
+    height: 52px;
+    color: #515151;
+    font-size: 50px;
+    font-weight: 900;
+    line-height: 60.95px;
+    text-align: center;
+    margin: 0 auto;
+    padding-right: 12%;
+
+    }
+
+
+
+    h2 {
+
+    width: 232px;
+    height: 37px;
+    font-size: 30px;
+    font-weight: 500;
+    line-height: 36.57px;
+    text-align: center;
+    margin: 7px 16px 0 15px;
+    padding-right: 12%;    
+    }
+
+    .button-header{
+
+    width: 239px;
+    height: 64px;
+    border-radius: 20.5px;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    color: #000;
+    font-size: 28px;
+    font-weight: 700;
+    margin-top: none;
+    margin-bottom: 133px;    
+    }
+
+    
+}
+
+
+
